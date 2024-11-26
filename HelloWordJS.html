@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+
+    <script>
+        //Creating an element in JS
+        const head = document.createElement("h1");
+        // putting the content to it head element which we have created
+        head.innerHTML = "Hello World from Javascript";
+        // cathcing the root element jiske andar head element ko daalna hai
+        const root = document.querySelector('#root')
+        //injecitng the head compnent into the root 
+        root.appendChild(head);
+    </script>    
+</body>
+</html>
