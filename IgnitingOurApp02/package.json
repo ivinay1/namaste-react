@@ -1,0 +1,35 @@
+{
+  "name": "ignitingourapp02",
+  "version": "1.0.0",
+  "description": "This is Igniting our app chapter of WebSeries",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivinay1/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "vinay",
+    "joshi",
+    "igniting",
+    "our",
+    "app"
+  ],
+  "author": "vinay joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivinay1/namaste-react/issues"
+  },
+  "homepage": "https://github.com/ivinay1/namaste-react#readme",
+  "dependencies": {
+    "parcel": "^2.13.2",
+    "react": "^18.3.1",
+    "react-do": "^1.1.6",
+    "react-dom": "^18.3.1"
+  }
+}
